@@ -1,0 +1,188 @@
+body {
+    background-color: #F8F9FA;
+}
+
+header {
+    position: sticky;
+    z-index: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+.btn-outline-success {
+    --bs-btn-color: grey;
+    --bs-btn-border-color: grey;
+    --bs-btn-hover-bg: #0355B7;
+    --bs-btn-hover-border-color: grey;
+    --bs-btn-active-bg: #93C01F;
+    --bs-btn-active-border-color: #93C01F;
+}
+
+.bg-jumbotron {
+    background-image: url(/assets/img/jumbotron.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.form-control:focus {
+    border-color: #0355B7;
+    outline: 0;
+    box-shadow: 0 0 8px 1px #0355B7;
+}
+
+.card {
+    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.388);
+    border-radius: 10px;
+}
+
+.carousel-inner {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body span {
+    font-size: 0.8rem;
+}
+
+.card-body span:first-of-type {
+    color: #93C01F;
+    font-weight: bold;
+}
+
+.card-body span:nth-child(2) {
+    color: #0355B7;
+    font-weight: bold;
+}
+
+#welcomeSummer {
+    background-image: url(/assets/img/sicilia.jpg);
+    background-size: cover;
+}
+
+#welcomeSummer h2 {
+    color: #4E4545;
+}
+
+#welcomeSummer h2 span {
+    display: block;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+
+    #welcomeSummer .card {
+        filter: brightness(80%);
+    }
+
+    #welcomeSummer .card:hover {
+        filter: brightness(100%);
+    }
+
+}
+
+#welcomeSummer .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#welcomeSummer .card h3 {
+    font-size: 1rem;
+}
+
+#welcomeSummer .card h3+p {
+    font-size: 0.8rem;
+}
+
+#welcomeSummer .card-body {
+    padding: 0;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+    h3 {
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #offertaGiorno {
+        display: none;
+    }
+}
+
+#offertaGiorno li {
+    list-style-type: " - "
+}
+
+#offertaGiorno p {
+    text-align: justify;
+}
+
+#lastMinute .card {
+    color: white;
+}
+
+#lastMinute .row :nth-child(1) .card {
+    background-image: url(/assets/img/barcellona.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#lastMinute .row :nth-child(2) .card {
+    background-image: url(/assets/img/new-york.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#lastMinute .row :nth-child(3) .card {
+    background-image: url(/assets/img/roma.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#lastMinute .row :nth-child(4) .card {
+    background-image: url(/assets/img/amsterdam.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#lastMinute .card .btn-primary {
+    background-color: #0355B7;
+    border: 1px solid grey;
+}
+
+#testimonial h3 {
+    font-size: 1.2rem;
+}
+
+.img-thumbnail {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 25%;
+}
+
+footer span {
+    display: block;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
